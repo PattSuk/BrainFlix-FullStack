@@ -1,0 +1,64 @@
+body {
+  font-family: "AvenirNext LT Pro";
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding: 2rem 0 1rem 0;
+
+  @include tablet {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  margin: 0;
+
+  @include tablet {
+    // font-size: 24px;
+    // line-height: 32px;
+
+    // Make it looks closer to the mock up
+    font-size: 16px;
+  }
+}
+
+h3 {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0.5rem 0;
+  font-weight: 600;
+
+  @include tablet {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+h4,
+p,
+time {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0.5rem 0;
+
+  @include tablet {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+h5,
+label {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}

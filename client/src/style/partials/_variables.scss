@@ -1,0 +1,48 @@
+$primary-color: #323232;
+$secondary-color: #ffffff;
+$primary-cta-color: #0095ff;
+$secondary-cta-color: #0065ad;
+$text-label-color: #afafaf;
+$text-field-border: #e1e1e1;
+$text-field-background: #fafafa;
+$video-backgroung: black;
+
+%btn {
+  background-color: $primary-cta-color;
+  border: 0;
+  border-radius: 4px;
+  color: $secondary-color;
+  font-weight: 600;
+
+  //Make the font size bigger to look closer to the mock up
+  font-size: 15px;
+
+  &:hover {
+    background-color: $secondary-cta-color;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+%avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: left;
+}
+
+%input-text {
+  font-family: "AvenirNext LT Pro";
+  background-color: $text-field-background;
+  border: 1.5px solid $text-field-border;
+  border-radius: 4px;
+  padding: 0.75rem;
+
+  &:focus {
+    border: 1.5px solid $primary-cta-color;
+    outline: none;
+  }
+}
